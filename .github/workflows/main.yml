@@ -27,5 +27,5 @@ jobs:
         run: ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
       - name: connect to our canvas node
         run: |
-          ssh -tt root@206.189.154.160 'cd /var/www/histopia-landing/static/histopia-statics/ && git pull'
+          ssh -tt root@134.209.235.90 'cd /var/www/histopia-landing/static/histopia-statics/ && git pull'
         shell: bash
