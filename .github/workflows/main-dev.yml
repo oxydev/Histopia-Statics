@@ -1,5 +1,5 @@
 
-name: Auto deploy on statics
+name: Auto deploy on statics dev
 
 on:
   push:
